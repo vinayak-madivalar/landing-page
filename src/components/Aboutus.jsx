@@ -47,7 +47,7 @@ const Aboutus = () => {
   ];
 
   return (
-    <div className="px-20 pt-20">
+    <div id="aboutus" className="px-4 md:px-20 pt-20">
       <h1 className="font-firaCode text-4xl font-extrabold mb-6">
         Why <span className="text-[#f9d423]">MoonEX</span> ?
       </h1>
@@ -103,9 +103,9 @@ const Aboutus = () => {
         <h1 className="font-firaCode text-4xl font-extrabold text-center py-12 ">
           Our <span className="text-[#f9d423] ">Features</span>
         </h1>
-        <div className="flex gap-8">
+        <div className="grid justify-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {cardData.map((item) => (
-            <Card key={item.id} className="max-w-64">
+            <Card key={item.id} className=" max-w-64">
               <CardHeader>
                 <CardTitle>
                   {<img src={item.cardImg} alt={item.cardTitle} width={50} />}

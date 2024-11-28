@@ -28,7 +28,7 @@ const FAQs = () => {
   ];
 
   return (
-    <div className="px-20 py-20">
+    <div id="faqs" className="px-4 md:px-20 py-20">
       <div className="absolute right-[-10%] h-40 w-40 blur-[100px] rounded-full bg-gradient-to-r from-[#E4B40D] to-[#EDD955]"></div>
       <div className="px-16 py-8 max-w-[75%] relative left-1/2 -translate-x-1/2 bg-card">
         <h1 className="font-firaCode text-4xl font-extrabold mb-6 text-[#f9d423] text-center">

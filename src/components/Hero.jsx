@@ -2,11 +2,11 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <div>
-      <div className="flex justify-start px-24 py-40 overflow-x-hidden h-dvh">
+    <div id="home">
+      <div className="flex justify-start px-10 py-20 md:px-24 md:py-40  h-dvh">
         <div className="z-10">
           <div className="font-firaCode mb-10">
-            <h1 className="text-6xl font-extrabold w-[45rem] mb-4">
+            <h1 className="text-3xl lg:text-6xl md:text-5xl font-extrabold md:w-[35rem] max-w-[45rem] mb-4">
               Trusted Multi-Chain <span className="text-[#f9d423]">DEX</span>{" "}
               Platform
             </h1>
@@ -23,7 +23,7 @@ const Hero = () => {
             </Button>
           </div>
         </div>
-        <div className="z-10 absolute top-1/3 left-[77%] bg-gradient-to-br from-[#FFF6D7] to-[#E4B40D] rounded-full h-44 w-44"></div>
+        <div className="z-10 hidden lg:block absolute top-1/3 left-[77%] bg-gradient-to-br from-[#FFF6D7] to-[#E4B40D] rounded-full h-44 w-44"></div>
         <img
           src="/star-img.png"
           alt="star image"
@@ -44,7 +44,8 @@ const Hero = () => {
         />
         <div className="absolute top-[20%] left-[1%] h-[60vh] w-[80vw] border border-[#484848] rounded-[50%] transform rotate-[10deg] z-0"></div>
         <div className="absolute top-[6%] left-[-15%] h-[90vh] w-[110vw] border border-[#484848] rounded-[50%] transform rotate-[10deg] z-0"></div>
-        <div className="absolute  top-[-5%] left-[-25%] h-[130vh] w-[140vw] border border-[#484848] rounded-[50%] transform rotate-[10deg] z-0"></div>
+
+        <div className="absolute top-[-5%] left-[-25%] h-[130vh] w-[140vw] border border-[#484848] rounded-[50%] transform rotate-[10deg] z-0"></div>
 
         <div className="absolute top-[10%] left-[7%] h-36 w-36 blur-[100px] rounded-full bg-gradient-to-r from-[#E4B40D] to-[#EDD955]"></div>
         <div className="absolute top-[65%] left-[78%] h-40 w-40 blur-[120px] rounded-full bg-gradient-to-r from-[#E4B40D] to-[#EDD955]"></div>

@@ -6,13 +6,13 @@ import Hero from "./components/Hero";
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <Hero />
       <Aboutus />
       <FAQs />
       <Footer />
-    </>
+    </div>
   );
 }
 
